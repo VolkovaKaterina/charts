@@ -1,0 +1,35 @@
+.vertical-bar-chart {
+  border-radius: 5px;
+  border: 1px solid rgba(31, 103, 217, 0.5);
+  padding: 20px;
+
+
+  &__title {
+    margin: 30px 0;
+    font-size: 17px;
+  }
+
+  .recharts-legend-item {
+    cursor: pointer;
+
+    &-text {
+      color: #45444BFF !important;
+      font-size: 12px;
+      font-weight: 400;
+    }
+  }
+
+  .recharts-label {
+    fill: #45444BFF !important;
+    font-weight: 500;
+    font-size: 11px;
+  }
+
+  .recharts-text {
+    font-size: 11px;
+  }
+
+  .recharts-legend-wrapper {
+    bottom: -10px !important;
+  }
+}

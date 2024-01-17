@@ -1,0 +1,49 @@
+@import "assets/styles/_resources.scss";
+* {
+  box-sizing: border-box;
+}
+
+html, body, div, h1, h2, h3, h4, h5, h6, p, blockquote, pre, img, ins, dl, dt, dd, ol, ul, li, form, menu, label, table,
+tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+}
+
+input, textarea, select, button {
+  margin: 0;
+  padding: 0;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: none !important;
+  -webkit-text-fill-color: inherit !important;
+  box-shadow: 0 0 0 1000px white inset;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+ol, ul, li {
+  list-style: none;
+}
+
+input[type="radio"] {
+  width: 13px;
+  height: 13px;
+}
+
+#root {
+  padding: 20px;
+}

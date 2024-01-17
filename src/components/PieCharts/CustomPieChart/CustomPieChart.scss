@@ -1,0 +1,32 @@
+.custom-pie {
+  margin-top: 20px;
+  min-width: 600px;
+  height: 400px;
+
+  &__title {
+    text-align: center;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    margin-bottom: 15px !important;
+    text-transform: uppercase;
+  }
+
+  &__label {
+    &-percent {
+      font-weight: bold;
+      font-size: 12px;
+    }
+
+    &-name {
+      font-size: 12px;
+    }
+  }
+}
+
+.recharts-pie-sector,
+.recharts-surface,
+.recharts-pie,
+.recharts-pie-label :focus {
+  outline: none !important;
+}
+

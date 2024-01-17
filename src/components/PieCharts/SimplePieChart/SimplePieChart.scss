@@ -1,0 +1,15 @@
+.simple-pie-chart {
+  margin-top: 20px;
+  width: 400px;
+  height: 400px;
+
+  &__title {
+    text-align: center;
+    font-weight: bold !important;
+    margin-bottom: 15px !important;
+    text-transform: uppercase;
+    font-size: 14px !important;
+  }
+
+
+}

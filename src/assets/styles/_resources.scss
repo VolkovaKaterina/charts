@@ -1,0 +1,105 @@
+
+
+// primary
+$primary-color: #FF8205;
+$primary-color-400: #FF952B;
+$primary-color-300: #FFA850;
+$primary-color-200: #FFC182;
+$primary-color-100: #FFDAB4;
+$primary-color-50: #FFF0E1;
+
+// secondary
+$secondary-color: #7093F7;
+$secondary-color-400: #85A3F8;
+$secondary-color-300: #9BB3F9;
+$secondary-color-200: #B8C9FB;
+$secondary-color-100: #D4DFFD;
+$secondary-color-50: #EEF2FE;
+
+// dark
+$dark-color-500: #24232B;
+$dark-color-400: #45444B;
+$dark-color-300: #66656B;
+$dark-color-200: #929195;
+$dark-color-100: #BDBDBF;
+$dark-color-50: #E5E5E6;
+
+// light
+$light-color-500: #BCBDCD;
+$light-color-400: #C7C7C7;
+$light-color-300: #D1D1D1;
+$light-color-200: #DEDEDE;
+$light-color-100: #EBEBEB;
+$light-color-50: #F7F7F7;
+
+// red
+$error-color: #F52B2B;
+$red-color-500: #DB2435;
+$red-color-400: #E04553;
+$red-color-300: #E66672;
+$red-color-200: #ED929A;
+$red-color-100: #F4BDC2;
+$red-color-50: #FBE5E7;
+
+// green
+$green-color-500: #2DA051;
+$green-color-400: #4DAE6B;
+$green-color-300: #6CBD85;
+$green-color-200: #96D0A8;
+$green-color-100: #C0E3CB;
+$green-color-50: #E6F4EA;
+
+// tealteal-color-500
+$teal-color-500: #6CE8D9;
+
+
+// other
+$white-color: #fff;
+$light-blue-color: #f1f4fe;
+$text-gray-color: #767676;
+$sidebar-color: #302D40;
+$disabled-color: #BDBDBD;
+$border-color: #EBEBEB;
+$background-color: #F8F8F8;
+$light-gray-color: #E5E5E5;
+$background-light-gray-color: #f9f9f9;
+$gray-color: #b3b3b3;
+$blue-color: #70C6F7;
+
+// gradient
+$gradient: linear-gradient(116.58deg, #F8A453 -1.06%, #F26431 98.82%);
+$shadow4: 0 2px 4px rgb(45 42 129 / 10%);
+
+// screen
+$tablet-width: 1200px;
+$mobile-width: 767px;
+$small-mobile-width: 600px;
+$unique-btn-color: rgb(255 130 5 / 8%);
+
+:export {
+  primaryColor: $primary-color;
+  primaryColor400: $primary-color-400;
+  primaryColor50: $primary-color-50;
+  secondaryColor: $secondary-color;
+  secondaryColor100: $secondary-color-100;
+  secondaryColor50: $secondary-color-50;
+  sidebarColor: $sidebar-color;
+  disabledColor: $disabled-color;
+  borderColor: $border-color;
+  backgroundColor: $background-color;
+  darkColor500: $dark-color-500;
+  darkColor100: $dark-color-100;
+  darkColor200: $dark-color-200;
+  textGrayColor: $text-gray-color;
+  greenColor500: $green-color-500;
+  redColor500: $red-color-500;
+  whiteColor: $white-color;
+  lightColor500: $light-color-500;
+  lightColor200: $light-color-200;
+  lightColor100: $light-color-100;
+  lightColor50: $light-color-50;
+  lightBlueColor: $light-blue-color;
+  blueColor: $blue-color;
+  tealColor500: $teal-color-500;
+  boxShadow4: $shadow4;
+}
