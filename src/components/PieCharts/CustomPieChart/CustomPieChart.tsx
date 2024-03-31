@@ -54,7 +54,7 @@ const CustomPieChart = () => {
   };
 
   return (
-    <div className="custom-pie">
+    <div className="custom-pie" data-testid="test">
       <Typography className="custom-pie__title" component="h3">
         Custom
       </Typography>
